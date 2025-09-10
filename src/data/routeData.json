@@ -7,7 +7,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Global Shipping Co."
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "distance": 230,
-      "timeTaken": 3
+      "timeTaken": 3,
+      "customer": "Rapid Logistics"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
       "distance": 615,
-      "timeTaken": 7.5
+      "timeTaken": 7.5,
+      "customer": "Apex Couriers"
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "distance": 540,
-      "timeTaken": 6.5
+      "timeTaken": 6.5,
+      "customer": "Starlight Deliveries"
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "startPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 1270,
-      "timeTaken": 15
+      "timeTaken": 15,
+      "customer": "Blue-bird Express"
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Trans-global Freight"
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "startPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
       "endPoint": {"name": "Washington D.C.", "coords": [38.9072, -77.0369]},
       "distance": 700,
-      "timeTaken": 8.5
+      "timeTaken": 8.5,
+      "customer": "Horizon Logistics"
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "startPoint": {"name": "Dallas", "coords": [32.7767, -96.7970]},
       "endPoint": {"name": "Houston", "coords": [29.7604, -95.3698]},
       "distance": 385,
-      "timeTaken": 4.5
+      "timeTaken": 4.5,
+      "customer": "Pioneer Transport"
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "distance": 230,
-      "timeTaken": 3
+      "timeTaken": 3,
+      "customer": "Quantum Express"
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "startPoint": {"name": "Miami", "coords": [25.7617, -80.1918]},
       "endPoint": {"name": "Atlanta", "coords": [33.7490, -84.3880]},
       "distance": 1070,
-      "timeTaken": 13
+      "timeTaken": 13,
+      "customer": "Silverline Shipping"
     },
     {
       "id": 11,
@@ -97,7 +107,8 @@
       "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
       "endPoint": {"name": "Phoenix", "coords": [33.4484, -112.0740]},
       "distance": 1370,
-      "timeTaken": 16.5
+      "timeTaken": 16.5,
+      "customer": "Ironclad Freight"
     },
     {
       "id": 12,
@@ -106,7 +117,8 @@
       "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
       "endPoint": {"name": "Edmonton", "coords": [53.5461, -113.4938]},
       "distance": 300,
-      "timeTaken": 3.5
+      "timeTaken": 3.5,
+      "customer": "Summit Logistics"
     },
     {
       "id": 13,
@@ -115,7 +127,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Velocity Couriers"
     },
     {
       "id": 14,
@@ -124,7 +137,8 @@
       "startPoint": {"name": "Winnipeg", "coords": [49.8951, -97.1384]},
       "endPoint": {"name": "Regina", "coords": [50.4452, -104.6189]},
       "distance": 570,
-      "timeTaken": 7
+      "timeTaken": 7,
+      "customer": "Celestial Transport"
     },
     {
       "id": 15,
@@ -133,7 +147,8 @@
       "startPoint": {"name": "Halifax", "coords": [44.6488, -63.5752]},
       "endPoint": {"name": "Quebec City", "coords": [46.8139, -71.2080]},
       "distance": 880,
-      "timeTaken": 10.5
+      "timeTaken": 10.5,
+      "customer": "Red-arrow Express"
     },
     {
       "id": 16,
@@ -142,7 +157,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "distance": 540,
-      "timeTaken": 6.5
+      "timeTaken": 6.5,
+      "customer": "Global Shipping Co."
     },
     {
       "id": 17,
@@ -151,7 +167,8 @@
       "startPoint": {"name": "Ottawa", "coords": [45.4215, -75.6972]},
       "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "distance": 450,
-      "timeTaken": 5.5
+      "timeTaken": 5.5,
+      "customer": "Rapid Logistics"
     },
     {
       "id": 18,
@@ -160,7 +177,8 @@
       "startPoint": {"name": "Philadelphia", "coords": [39.9526, -75.1652]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 150,
-      "timeTaken": 2
+      "timeTaken": 2,
+      "customer": "Apex Couriers"
     },
     {
       "id": 19,
@@ -169,7 +187,8 @@
       "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
       "distance": 615,
-      "timeTaken": 7.5
+      "timeTaken": 7.5,
+      "customer": "Starlight Deliveries"
     },
     {
       "id": 20,
@@ -178,7 +197,8 @@
       "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "endPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
       "distance": 350,
-      "timeTaken": 5
+      "timeTaken": 5,
+      "customer": "Blue-bird Express"
     },
     {
       "id": 21,
@@ -187,7 +207,8 @@
       "startPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "endPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
       "distance": 500,
-      "timeTaken": 7
+      "timeTaken": 7,
+      "customer": "Trans-global Freight"
     },
     {
       "id": 22,
@@ -196,7 +217,8 @@
       "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
       "endPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "distance": 970,
-      "timeTaken": 12
+      "timeTaken": 12,
+      "customer": "Horizon Logistics"
     },
     {
       "id": 23,
@@ -205,7 +227,8 @@
       "startPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
       "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "distance": 850,
-      "timeTaken": 11
+      "timeTaken": 11,
+      "customer": "Pioneer Transport"
     },
     {
       "id": 24,
@@ -214,7 +237,8 @@
       "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "endPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
       "distance": 1600,
-      "timeTaken": 20
+      "timeTaken": 20,
+      "customer": "Quantum Express"
     },
     {
       "id": 25,
@@ -223,7 +247,8 @@
       "startPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "endPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "distance": 1800,
-      "timeTaken": 22
+      "timeTaken": 22,
+      "customer": "Silverline Shipping"
     },
     {
       "id": 26,
@@ -232,7 +257,8 @@
       "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
       "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
       "distance": 1600,
-      "timeTaken": 20
+      "timeTaken": 20,
+      "customer": "Ironclad Freight"
     },
     {
       "id": 27,
@@ -241,7 +267,8 @@
       "startPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "distance": 540,
-      "timeTaken": 6.5
+      "timeTaken": 6.5,
+      "customer": "Summit Logistics"
     },
     {
       "id": 28,
@@ -250,7 +277,8 @@
       "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
       "distance": 1270,
-      "timeTaken": 15
+      "timeTaken": 15,
+      "customer": "Velocity Couriers"
     },
     {
       "id": 29,
@@ -259,7 +287,8 @@
       "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
       "endPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
       "distance": 1500,
-      "timeTaken": 18
+      "timeTaken": 18,
+      "customer": "Celestial Transport"
     },
     {
       "id": 30,
@@ -268,7 +297,8 @@
       "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "endPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
       "distance": 970,
-      "timeTaken": 12
+      "timeTaken": 12,
+      "customer": "Red-arrow Express"
     },
     {
       "id": 31,
@@ -277,7 +307,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
       "distance": 850,
-      "timeTaken": 11
+      "timeTaken": 11,
+      "customer": "Global Shipping Co."
     },
     {
       "id": 32,
@@ -286,7 +317,8 @@
       "startPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
       "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "distance": 500,
-      "timeTaken": 7
+      "timeTaken": 7,
+      "customer": "Rapid Logistics"
     },
     {
       "id": 33,
@@ -295,7 +327,8 @@
       "startPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "endPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "distance": 230,
-      "timeTaken": 3
+      "timeTaken": 3,
+      "customer": "Apex Couriers"
     },
     {
       "id": 34,
@@ -304,7 +337,8 @@
       "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
       "endPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "distance": 1600,
-      "timeTaken": 20
+      "timeTaken": 20,
+      "customer": "Starlight Deliveries"
     },
     {
       "id": 35,
@@ -313,7 +347,8 @@
       "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Blue-bird Express"
     },
     {
       "id": 36,
@@ -322,7 +357,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Trans-global Freight"
     },
     {
       "id": 37,
@@ -331,7 +367,8 @@
       "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "distance": 230,
-      "timeTaken": 3
+      "timeTaken": 3,
+      "customer": "Horizon Logistics"
     },
     {
       "id": 38,
@@ -340,7 +377,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "distance": 540,
-      "timeTaken": 6.5
+      "timeTaken": 6.5,
+      "customer": "Pioneer Transport"
     },
     {
       "id": 39,
@@ -349,7 +387,8 @@
       "startPoint": {"name": "Houston", "coords": [29.7604, -95.3698]},
       "endPoint": {"name": "Dallas", "coords": [32.7767, -96.7970]},
       "distance": 385,
-      "timeTaken": 4.5
+      "timeTaken": 4.5,
+      "customer": "Quantum Express"
     },
     {
       "id": 40,
@@ -358,7 +397,8 @@
       "startPoint": {"name": "Atlanta", "coords": [33.7490, -84.3880]},
       "endPoint": {"name": "Miami", "coords": [25.7617, -80.1918]},
       "distance": 1070,
-      "timeTaken": 13
+      "timeTaken": 13,
+      "customer": "Silverline Shipping"
     },
     {
       "id": 41,
@@ -367,7 +407,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Ironclad Freight"
     },
     {
       "id": 42,
@@ -376,7 +417,8 @@
       "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "distance": 230,
-      "timeTaken": 3
+      "timeTaken": 3,
+      "customer": "Summit Logistics"
     },
     {
       "id": 43,
@@ -385,7 +427,8 @@
       "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
       "distance": 615,
-      "timeTaken": 7.5
+      "timeTaken": 7.5,
+      "customer": "Velocity Couriers"
     },
     {
       "id": 44,
@@ -394,7 +437,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "distance": 540,
-      "timeTaken": 6.5
+      "timeTaken": 6.5,
+      "customer": "Celestial Transport"
     },
     {
       "id": 45,
@@ -403,7 +447,8 @@
       "startPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 1270,
-      "timeTaken": 15
+      "timeTaken": 15,
+      "customer": "Red-arrow Express"
     },
     {
       "id": 46,
@@ -412,7 +457,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Global Shipping Co."
     },
     {
       "id": 47,
@@ -421,7 +467,8 @@
       "startPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
       "endPoint": {"name": "Washington D.C.", "coords": [38.9072, -77.0369]},
       "distance": 700,
-      "timeTaken": 8.5
+      "timeTaken": 8.5,
+      "customer": "Rapid Logistics"
     },
     {
       "id": 48,
@@ -430,7 +477,8 @@
       "startPoint": {"name": "Dallas", "coords": [32.7767, -96.7970]},
       "endPoint": {"name": "Houston", "coords": [29.7604, -95.3698]},
       "distance": 385,
-      "timeTaken": 4.5
+      "timeTaken": 4.5,
+      "customer": "Apex Couriers"
     },
     {
       "id": 49,
@@ -439,7 +487,8 @@
       "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "distance": 230,
-      "timeTaken": 3
+      "timeTaken": 3,
+      "customer": "Starlight Deliveries"
     },
     {
       "id": 50,
@@ -448,7 +497,8 @@
       "startPoint": {"name": "Miami", "coords": [25.7617, -80.1918]},
       "endPoint": {"name": "Atlanta", "coords": [33.7490, -84.3880]},
       "distance": 1070,
-      "timeTaken": 13
+      "timeTaken": 13,
+      "customer": "Blue-bird Express"
     },
     {
       "id": 51,
@@ -457,7 +507,8 @@
       "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
       "endPoint": {"name": "Phoenix", "coords": [33.4484, -112.0740]},
       "distance": 1370,
-      "timeTaken": 16.5
+      "timeTaken": 16.5,
+      "customer": "Trans-global Freight"
     },
     {
       "id": 52,
@@ -466,7 +517,8 @@
       "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
       "endPoint": {"name": "Edmonton", "coords": [53.5461, -113.4938]},
       "distance": 300,
-      "timeTaken": 3.5
+      "timeTaken": 3.5,
+      "customer": "Horizon Logistics"
     },
     {
       "id": 53,
@@ -475,7 +527,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Pioneer Transport"
     },
     {
       "id": 54,
@@ -484,7 +537,8 @@
       "startPoint": {"name": "Winnipeg", "coords": [49.8951, -97.1384]},
       "endPoint": {"name": "Regina", "coords": [50.4452, -104.6189]},
       "distance": 570,
-      "timeTaken": 7
+      "timeTaken": 7,
+      "customer": "Quantum Express"
     },
     {
       "id": 55,
@@ -493,7 +547,8 @@
       "startPoint": {"name": "Halifax", "coords": [44.6488, -63.5752]},
       "endPoint": {"name": "Quebec City", "coords": [46.8139, -71.2080]},
       "distance": 880,
-      "timeTaken": 10.5
+      "timeTaken": 10.5,
+      "customer": "Silverline Shipping"
     },
     {
       "id": 56,
@@ -502,7 +557,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "distance": 540,
-      "timeTaken": 6.5
+      "timeTaken": 6.5,
+      "customer": "Ironclad Freight"
     },
     {
       "id": 57,
@@ -511,7 +567,8 @@
       "startPoint": {"name": "Ottawa", "coords": [45.4215, -75.6972]},
       "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "distance": 450,
-      "timeTaken": 5.5
+      "timeTaken": 5.5,
+      "customer": "Summit Logistics"
     },
     {
       "id": 58,
@@ -520,7 +577,8 @@
       "startPoint": {"name": "Philadelphia", "coords": [39.9526, -75.1652]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 150,
-      "timeTaken": 2
+      "timeTaken": 2,
+      "customer": "Velocity Couriers"
     },
     {
       "id": 59,
@@ -529,7 +587,8 @@
       "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
       "distance": 615,
-      "timeTaken": 7.5
+      "timeTaken": 7.5,
+      "customer": "Celestial Transport"
     },
     {
       "id": 60,
@@ -538,7 +597,8 @@
       "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "endPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
       "distance": 350,
-      "timeTaken": 5
+      "timeTaken": 5,
+      "customer": "Red-arrow Express"
     },
     {
       "id": 61,
@@ -547,7 +607,8 @@
       "startPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "endPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
       "distance": 500,
-      "timeTaken": 7
+      "timeTaken": 7,
+      "customer": "Global Shipping Co."
     },
     {
       "id": 62,
@@ -556,7 +617,8 @@
       "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
       "endPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "distance": 970,
-      "timeTaken": 12
+      "timeTaken": 12,
+      "customer": "Rapid Logistics"
     },
     {
       "id": 63,
@@ -565,7 +627,8 @@
       "startPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
       "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "distance": 850,
-      "timeTaken": 11
+      "timeTaken": 11,
+      "customer": "Apex Couriers"
     },
     {
       "id": 64,
@@ -574,7 +637,8 @@
       "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "endPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
       "distance": 1600,
-      "timeTaken": 20
+      "timeTaken": 20,
+      "customer": "Starlight Deliveries"
     },
     {
       "id": 65,
@@ -583,7 +647,8 @@
       "startPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "endPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "distance": 1800,
-      "timeTaken": 22
+      "timeTaken": 22,
+      "customer": "Blue-bird Express"
     },
     {
       "id": 66,
@@ -592,7 +657,8 @@
       "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
       "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
       "distance": 1600,
-      "timeTaken": 20
+      "timeTaken": 20,
+      "customer": "Trans-global Freight"
     },
     {
       "id": 67,
@@ -601,7 +667,8 @@
       "startPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "distance": 540,
-      "timeTaken": 6.5
+      "timeTaken": 6.5,
+      "customer": "Horizon Logistics"
     },
     {
       "id": 68,
@@ -610,7 +677,8 @@
       "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
       "distance": 1270,
-      "timeTaken": 15
+      "timeTaken": 15,
+      "customer": "Pioneer Transport"
     },
     {
       "id": 69,
@@ -619,7 +687,8 @@
       "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
       "endPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
       "distance": 1500,
-      "timeTaken": 18
+      "timeTaken": 18,
+      "customer": "Quantum Express"
     },
     {
       "id": 70,
@@ -628,7 +697,8 @@
       "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "endPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
       "distance": 970,
-      "timeTaken": 12
+      "timeTaken": 12,
+      "customer": "Silverline Shipping"
     },
     {
       "id": 71,
@@ -637,7 +707,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
       "distance": 850,
-      "timeTaken": 11
+      "timeTaken": 11,
+      "customer": "Ironclad Freight"
     },
     {
       "id": 72,
@@ -646,7 +717,8 @@
       "startPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
       "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "distance": 500,
-      "timeTaken": 7
+      "timeTaken": 7,
+      "customer": "Summit Logistics"
     },
     {
       "id": 73,
@@ -655,7 +727,8 @@
       "startPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "endPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "distance": 230,
-      "timeTaken": 3
+      "timeTaken": 3,
+      "customer": "Velocity Couriers"
     },
     {
       "id": 74,
@@ -664,7 +737,8 @@
       "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
       "endPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "distance": 1600,
-      "timeTaken": 20
+      "timeTaken": 20,
+      "customer": "Celestial Transport"
     },
     {
       "id": 75,
@@ -673,7 +747,8 @@
       "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Red-arrow Express"
     },
     {
       "id": 76,
@@ -682,7 +757,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Global Shipping Co."
     },
     {
       "id": 77,
@@ -691,7 +767,8 @@
       "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "distance": 230,
-      "timeTaken": 3
+      "timeTaken": 3,
+      "customer": "Rapid Logistics"
     },
     {
       "id": 78,
@@ -700,7 +777,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "distance": 540,
-      "timeTaken": 6.5
+      "timeTaken": 6.5,
+      "customer": "Apex Couriers"
     },
     {
       "id": 79,
@@ -709,7 +787,8 @@
       "startPoint": {"name": "Houston", "coords": [29.7604, -95.3698]},
       "endPoint": {"name": "Dallas", "coords": [32.7767, -96.7970]},
       "distance": 385,
-      "timeTaken": 4.5
+      "timeTaken": 4.5,
+      "customer": "Starlight Deliveries"
     },
     {
       "id": 80,
@@ -718,7 +797,8 @@
       "startPoint": {"name": "Atlanta", "coords": [33.7490, -84.3880]},
       "endPoint": {"name": "Miami", "coords": [25.7617, -80.1918]},
       "distance": 1070,
-      "timeTaken": 13
+      "timeTaken": 13,
+      "customer": "Blue-bird Express"
     },
     {
       "id": 81,
@@ -727,7 +807,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Trans-global Freight"
     },
     {
       "id": 82,
@@ -736,7 +817,8 @@
       "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "distance": 230,
-      "timeTaken": 3
+      "timeTaken": 3,
+      "customer": "Horizon Logistics"
     },
     {
       "id": 83,
@@ -745,7 +827,8 @@
       "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
       "distance": 615,
-      "timeTaken": 7.5
+      "timeTaken": 7.5,
+      "customer": "Pioneer Transport"
     },
     {
       "id": 84,
@@ -754,7 +837,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "distance": 540,
-      "timeTaken": 6.5
+      "timeTaken": 6.5,
+      "customer": "Quantum Express"
     },
     {
       "id": 85,
@@ -763,7 +847,8 @@
       "startPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 1270,
-      "timeTaken": 15
+      "timeTaken": 15,
+      "customer": "Silverline Shipping"
     },
     {
       "id": 86,
@@ -772,7 +857,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Ironclad Freight"
     },
     {
       "id": 87,
@@ -781,7 +867,8 @@
       "startPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
       "endPoint": {"name": "Washington D.C.", "coords": [38.9072, -77.0369]},
       "distance": 700,
-      "timeTaken": 8.5
+      "timeTaken": 8.5,
+      "customer": "Summit Logistics"
     },
     {
       "id": 88,
@@ -790,7 +877,8 @@
       "startPoint": {"name": "Dallas", "coords": [32.7767, -96.7970]},
       "endPoint": {"name": "Houston", "coords": [29.7604, -95.3698]},
       "distance": 385,
-      "timeTaken": 4.5
+      "timeTaken": 4.5,
+      "customer": "Velocity Couriers"
     },
     {
       "id": 89,
@@ -799,7 +887,8 @@
       "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
       "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
       "distance": 230,
-      "timeTaken": 3
+      "timeTaken": 3,
+      "customer": "Celestial Transport"
     },
     {
       "id": 90,
@@ -808,7 +897,8 @@
       "startPoint": {"name": "Miami", "coords": [25.7617, -80.1918]},
       "endPoint": {"name": "Atlanta", "coords": [33.7490, -84.3880]},
       "distance": 1070,
-      "timeTaken": 13
+      "timeTaken": 13,
+      "customer": "Red-arrow Express"
     },
     {
       "id": 91,
@@ -817,7 +907,8 @@
       "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
       "endPoint": {"name": "Phoenix", "coords": [33.4484, -112.0740]},
       "distance": 1370,
-      "timeTaken": 16.5
+      "timeTaken": 16.5,
+      "customer": "Global Shipping Co."
     },
     {
       "id": 92,
@@ -826,7 +917,8 @@
       "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
       "endPoint": {"name": "Edmonton", "coords": [53.5461, -113.4938]},
       "distance": 300,
-      "timeTaken": 3.5
+      "timeTaken": 3.5,
+      "customer": "Rapid Logistics"
     },
     {
       "id": 93,
@@ -835,7 +927,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 800,
-      "timeTaken": 10
+      "timeTaken": 10,
+      "customer": "Apex Couriers"
     },
     {
       "id": 94,
@@ -844,7 +937,8 @@
       "startPoint": {"name": "Winnipeg", "coords": [49.8951, -97.1384]},
       "endPoint": {"name": "Regina", "coords": [50.4452, -104.6189]},
       "distance": 570,
-      "timeTaken": 7
+      "timeTaken": 7,
+      "customer": "Starlight Deliveries"
     },
     {
       "id": 95,
@@ -853,7 +947,8 @@
       "startPoint": {"name": "Halifax", "coords": [44.6488, -63.5752]},
       "endPoint": {"name": "Quebec City", "coords": [46.8139, -71.2080]},
       "distance": 880,
-      "timeTaken": 10.5
+      "timeTaken": 10.5,
+      "customer": "Blue-bird Express"
     },
     {
       "id": 96,
@@ -862,7 +957,8 @@
       "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
       "distance": 540,
-      "timeTaken": 6.5
+      "timeTaken": 6.5,
+      "customer": "Trans-global Freight"
     },
     {
       "id": 97,
@@ -871,7 +967,8 @@
       "startPoint": {"name": "Ottawa", "coords": [45.4215, -75.6972]},
       "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
       "distance": 450,
-      "timeTaken": 5.5
+      "timeTaken": 5.5,
+      "customer": "Horizon Logistics"
     },
     {
       "id": 98,
@@ -880,7 +977,8 @@
       "startPoint": {"name": "Philadelphia", "coords": [39.9526, -75.1652]},
       "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "distance": 150,
-      "timeTaken": 2
+      "timeTaken": 2,
+      "customer": "Pioneer Transport"
     },
     {
       "id": 99,
@@ -889,7 +987,8 @@
       "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
       "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
       "distance": 615,
-      "timeTaken": 7.5
+      "timeTaken": 7.5,
+      "customer": "Quantum Express"
     },
     {
       "id": 100,
@@ -898,7 +997,108 @@
       "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
       "endPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
       "distance": 350,
-      "timeTaken": 5
+      "timeTaken": 5,
+      "customer": "Silverline Shipping"
+    },
+    {
+      "id": 101,
+      "truck": "T1",
+      "day": "Saturday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10,
+      "customer": "Global Shipping Co."
+    },
+    {
+      "id": 102,
+      "truck": "T2",
+      "day": "Saturday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "distance": 230,
+      "timeTaken": 3,
+      "customer": "Rapid Logistics"
+    },
+    {
+      "id": 103,
+      "truck": "T3",
+      "day": "Saturday",
+      "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
+      "distance": 615,
+      "timeTaken": 7.5,
+      "customer": "Apex Couriers"
+    },
+    {
+      "id": 104,
+      "truck": "T4",
+      "day": "Saturday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "distance": 540,
+      "timeTaken": 6.5,
+      "customer": "Starlight Deliveries"
+    },
+    {
+      "id": 105,
+      "truck": "T5",
+      "day": "Saturday",
+      "startPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 1270,
+      "timeTaken": 15,
+      "customer": "Blue-bird Express"
+    },
+    {
+      "id": 106,
+      "truck": "T1",
+      "day": "Saturday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10,
+      "customer": "Trans-global Freight"
+    },
+    {
+      "id": 107,
+      "truck": "T6",
+      "day": "Saturday",
+      "startPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
+      "endPoint": {"name": "Washington D.C.", "coords": [38.9072, -77.0369]},
+      "distance": 700,
+      "timeTaken": 8.5,
+      "customer": "Horizon Logistics"
+    },
+    {
+      "id": 108,
+      "truck": "T7",
+      "day": "Saturday",
+      "startPoint": {"name": "Dallas", "coords": [32.7767, -96.7970]},
+      "endPoint": {"name": "Houston", "coords": [29.7604, -95.3698]},
+      "distance": 385,
+      "timeTaken": 4.5,
+      "customer": "Pioneer Transport"
+    },
+    {
+      "id": 109,
+      "truck": "T2",
+      "day": "Saturday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "distance": 230,
+      "timeTaken": 3,
+      "customer": "Quantum Express"
+    },
+    {
+      "id": 110,
+      "truck": "T8",
+      "day": "Saturday",
+      "startPoint": {"name": "Miami", "coords": [25.7617, -80.1918]},
+      "endPoint": {"name": "Atlanta", "coords": [33.7490, -84.3880]},
+      "distance": 1070,
+      "timeTaken": 13,
+      "customer": "Silverline Shipping"
     }
   ]
 }
