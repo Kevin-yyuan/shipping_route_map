@@ -1,25 +1,904 @@
-
 {
-  "routeName": "Toronto to New York",
-  "startPoint": {
-    "name": "Toronto",
-    "coords": [43.6532, -79.3832]
-  },
-  "endPoint": {
-    "name": "New York",
-    "coords": [40.7128, -74.0060]
-  },
-  "routePath": [
-    [43.6532, -79.3832],
-    [43.2994, -79.8711],
-    [42.8864, -78.8784],
-    [42.9833, -74.9223],
-    [41.7004, -73.9209],
-    [40.7128, -74.0060]
-  ],
-  "info": {
-    "distance": "Approx. 800 km",
-    "estimatedTime": "3-4 days",
-    "cargo": "General Goods"
-  }
+  "trips": [
+    {
+      "id": 1,
+      "truck": "T1",
+      "day": "Monday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 2,
+      "truck": "T2",
+      "day": "Monday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "distance": 230,
+      "timeTaken": 3
+    },
+    {
+      "id": 3,
+      "truck": "T3",
+      "day": "Monday",
+      "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
+      "distance": 615,
+      "timeTaken": 7.5
+    },
+    {
+      "id": 4,
+      "truck": "T4",
+      "day": "Monday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "distance": 540,
+      "timeTaken": 6.5
+    },
+    {
+      "id": 5,
+      "truck": "T5",
+      "day": "Monday",
+      "startPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 1270,
+      "timeTaken": 15
+    },
+    {
+      "id": 6,
+      "truck": "T1",
+      "day": "Monday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 7,
+      "truck": "T6",
+      "day": "Monday",
+      "startPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
+      "endPoint": {"name": "Washington D.C.", "coords": [38.9072, -77.0369]},
+      "distance": 700,
+      "timeTaken": 8.5
+    },
+    {
+      "id": 8,
+      "truck": "T7",
+      "day": "Monday",
+      "startPoint": {"name": "Dallas", "coords": [32.7767, -96.7970]},
+      "endPoint": {"name": "Houston", "coords": [29.7604, -95.3698]},
+      "distance": 385,
+      "timeTaken": 4.5
+    },
+    {
+      "id": 9,
+      "truck": "T2",
+      "day": "Monday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "distance": 230,
+      "timeTaken": 3
+    },
+    {
+      "id": 10,
+      "truck": "T8",
+      "day": "Monday",
+      "startPoint": {"name": "Miami", "coords": [25.7617, -80.1918]},
+      "endPoint": {"name": "Atlanta", "coords": [33.7490, -84.3880]},
+      "distance": 1070,
+      "timeTaken": 13
+    },
+    {
+      "id": 11,
+      "truck": "T9",
+      "day": "Monday",
+      "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
+      "endPoint": {"name": "Phoenix", "coords": [33.4484, -112.0740]},
+      "distance": 1370,
+      "timeTaken": 16.5
+    },
+    {
+      "id": 12,
+      "truck": "T10",
+      "day": "Monday",
+      "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
+      "endPoint": {"name": "Edmonton", "coords": [53.5461, -113.4938]},
+      "distance": 300,
+      "timeTaken": 3.5
+    },
+    {
+      "id": 13,
+      "truck": "T1",
+      "day": "Monday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 14,
+      "truck": "T11",
+      "day": "Monday",
+      "startPoint": {"name": "Winnipeg", "coords": [49.8951, -97.1384]},
+      "endPoint": {"name": "Regina", "coords": [50.4452, -104.6189]},
+      "distance": 570,
+      "timeTaken": 7
+    },
+    {
+      "id": 15,
+      "truck": "T12",
+      "day": "Monday",
+      "startPoint": {"name": "Halifax", "coords": [44.6488, -63.5752]},
+      "endPoint": {"name": "Quebec City", "coords": [46.8139, -71.2080]},
+      "distance": 880,
+      "timeTaken": 10.5
+    },
+    {
+      "id": 16,
+      "truck": "T4",
+      "day": "Monday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "distance": 540,
+      "timeTaken": 6.5
+    },
+    {
+      "id": 17,
+      "truck": "T13",
+      "day": "Monday",
+      "startPoint": {"name": "Ottawa", "coords": [45.4215, -75.6972]},
+      "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "distance": 450,
+      "timeTaken": 5.5
+    },
+    {
+      "id": 18,
+      "truck": "T14",
+      "day": "Monday",
+      "startPoint": {"name": "Philadelphia", "coords": [39.9526, -75.1652]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 150,
+      "timeTaken": 2
+    },
+    {
+      "id": 19,
+      "truck": "T3",
+      "day": "Monday",
+      "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
+      "distance": 615,
+      "timeTaken": 7.5
+    },
+    {
+      "id": 20,
+      "truck": "T15",
+      "day": "Monday",
+      "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "endPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
+      "distance": 350,
+      "timeTaken": 5
+    },
+    {
+      "id": 21,
+      "truck": "T1",
+      "day": "Tuesday",
+      "startPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "endPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
+      "distance": 500,
+      "timeTaken": 7
+    },
+    {
+      "id": 22,
+      "truck": "T2",
+      "day": "Tuesday",
+      "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
+      "endPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "distance": 970,
+      "timeTaken": 12
+    },
+    {
+      "id": 23,
+      "truck": "T3",
+      "day": "Tuesday",
+      "startPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "distance": 850,
+      "timeTaken": 11
+    },
+    {
+      "id": 24,
+      "truck": "T4",
+      "day": "Tuesday",
+      "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "endPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
+      "distance": 1600,
+      "timeTaken": 20
+    },
+    {
+      "id": 25,
+      "truck": "T5",
+      "day": "Tuesday",
+      "startPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "endPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "distance": 1800,
+      "timeTaken": 22
+    },
+    {
+      "id": 26,
+      "truck": "T6",
+      "day": "Tuesday",
+      "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
+      "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "distance": 1600,
+      "timeTaken": 20
+    },
+    {
+      "id": 27,
+      "truck": "T7",
+      "day": "Tuesday",
+      "startPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "distance": 540,
+      "timeTaken": 6.5
+    },
+    {
+      "id": 28,
+      "truck": "T8",
+      "day": "Tuesday",
+      "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "distance": 1270,
+      "timeTaken": 15
+    },
+    {
+      "id": 29,
+      "truck": "T9",
+      "day": "Tuesday",
+      "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
+      "endPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
+      "distance": 1500,
+      "timeTaken": 18
+    },
+    {
+      "id": 30,
+      "truck": "T10",
+      "day": "Tuesday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
+      "distance": 970,
+      "timeTaken": 12
+    },
+    {
+      "id": 31,
+      "truck": "T11",
+      "day": "Tuesday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "distance": 850,
+      "timeTaken": 11
+    },
+    {
+      "id": 32,
+      "truck": "T12",
+      "day": "Tuesday",
+      "startPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
+      "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "distance": 500,
+      "timeTaken": 7
+    },
+    {
+      "id": 33,
+      "truck": "T13",
+      "day": "Tuesday",
+      "startPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "endPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "distance": 230,
+      "timeTaken": 3
+    },
+    {
+      "id": 34,
+      "truck": "T14",
+      "day": "Tuesday",
+      "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
+      "endPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "distance": 1600,
+      "timeTaken": 20
+    },
+    {
+      "id": 35,
+      "truck": "T15",
+      "day": "Tuesday",
+      "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 36,
+      "truck": "T1",
+      "day": "Tuesday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 37,
+      "truck": "T2",
+      "day": "Tuesday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "distance": 230,
+      "timeTaken": 3
+    },
+    {
+      "id": 38,
+      "truck": "T4",
+      "day": "Tuesday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "distance": 540,
+      "timeTaken": 6.5
+    },
+    {
+      "id": 39,
+      "truck": "T16",
+      "day": "Tuesday",
+      "startPoint": {"name": "Houston", "coords": [29.7604, -95.3698]},
+      "endPoint": {"name": "Dallas", "coords": [32.7767, -96.7970]},
+      "distance": 385,
+      "timeTaken": 4.5
+    },
+    {
+      "id": 40,
+      "truck": "T17",
+      "day": "Tuesday",
+      "startPoint": {"name": "Atlanta", "coords": [33.7490, -84.3880]},
+      "endPoint": {"name": "Miami", "coords": [25.7617, -80.1918]},
+      "distance": 1070,
+      "timeTaken": 13
+    },
+    {
+      "id": 41,
+      "truck": "T1",
+      "day": "Wednesday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 42,
+      "truck": "T2",
+      "day": "Wednesday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "distance": 230,
+      "timeTaken": 3
+    },
+    {
+      "id": 43,
+      "truck": "T3",
+      "day": "Wednesday",
+      "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
+      "distance": 615,
+      "timeTaken": 7.5
+    },
+    {
+      "id": 44,
+      "truck": "T4",
+      "day": "Wednesday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "distance": 540,
+      "timeTaken": 6.5
+    },
+    {
+      "id": 45,
+      "truck": "T5",
+      "day": "Wednesday",
+      "startPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 1270,
+      "timeTaken": 15
+    },
+    {
+      "id": 46,
+      "truck": "T1",
+      "day": "Wednesday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 47,
+      "truck": "T6",
+      "day": "Wednesday",
+      "startPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
+      "endPoint": {"name": "Washington D.C.", "coords": [38.9072, -77.0369]},
+      "distance": 700,
+      "timeTaken": 8.5
+    },
+    {
+      "id": 48,
+      "truck": "T7",
+      "day": "Wednesday",
+      "startPoint": {"name": "Dallas", "coords": [32.7767, -96.7970]},
+      "endPoint": {"name": "Houston", "coords": [29.7604, -95.3698]},
+      "distance": 385,
+      "timeTaken": 4.5
+    },
+    {
+      "id": 49,
+      "truck": "T2",
+      "day": "Wednesday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "distance": 230,
+      "timeTaken": 3
+    },
+    {
+      "id": 50,
+      "truck": "T8",
+      "day": "Wednesday",
+      "startPoint": {"name": "Miami", "coords": [25.7617, -80.1918]},
+      "endPoint": {"name": "Atlanta", "coords": [33.7490, -84.3880]},
+      "distance": 1070,
+      "timeTaken": 13
+    },
+    {
+      "id": 51,
+      "truck": "T9",
+      "day": "Wednesday",
+      "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
+      "endPoint": {"name": "Phoenix", "coords": [33.4484, -112.0740]},
+      "distance": 1370,
+      "timeTaken": 16.5
+    },
+    {
+      "id": 52,
+      "truck": "T10",
+      "day": "Wednesday",
+      "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
+      "endPoint": {"name": "Edmonton", "coords": [53.5461, -113.4938]},
+      "distance": 300,
+      "timeTaken": 3.5
+    },
+    {
+      "id": 53,
+      "truck": "T1",
+      "day": "Wednesday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 54,
+      "truck": "T11",
+      "day": "Wednesday",
+      "startPoint": {"name": "Winnipeg", "coords": [49.8951, -97.1384]},
+      "endPoint": {"name": "Regina", "coords": [50.4452, -104.6189]},
+      "distance": 570,
+      "timeTaken": 7
+    },
+    {
+      "id": 55,
+      "truck": "T12",
+      "day": "Wednesday",
+      "startPoint": {"name": "Halifax", "coords": [44.6488, -63.5752]},
+      "endPoint": {"name": "Quebec City", "coords": [46.8139, -71.2080]},
+      "distance": 880,
+      "timeTaken": 10.5
+    },
+    {
+      "id": 56,
+      "truck": "T4",
+      "day": "Wednesday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "distance": 540,
+      "timeTaken": 6.5
+    },
+    {
+      "id": 57,
+      "truck": "T13",
+      "day": "Wednesday",
+      "startPoint": {"name": "Ottawa", "coords": [45.4215, -75.6972]},
+      "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "distance": 450,
+      "timeTaken": 5.5
+    },
+    {
+      "id": 58,
+      "truck": "T14",
+      "day": "Wednesday",
+      "startPoint": {"name": "Philadelphia", "coords": [39.9526, -75.1652]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 150,
+      "timeTaken": 2
+    },
+    {
+      "id": 59,
+      "truck": "T3",
+      "day": "Wednesday",
+      "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
+      "distance": 615,
+      "timeTaken": 7.5
+    },
+    {
+      "id": 60,
+      "truck": "T15",
+      "day": "Wednesday",
+      "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "endPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
+      "distance": 350,
+      "timeTaken": 5
+    },
+    {
+      "id": 61,
+      "truck": "T1",
+      "day": "Thursday",
+      "startPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "endPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
+      "distance": 500,
+      "timeTaken": 7
+    },
+    {
+      "id": 62,
+      "truck": "T2",
+      "day": "Thursday",
+      "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
+      "endPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "distance": 970,
+      "timeTaken": 12
+    },
+    {
+      "id": 63,
+      "truck": "T3",
+      "day": "Thursday",
+      "startPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "distance": 850,
+      "timeTaken": 11
+    },
+    {
+      "id": 64,
+      "truck": "T4",
+      "day": "Thursday",
+      "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "endPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
+      "distance": 1600,
+      "timeTaken": 20
+    },
+    {
+      "id": 65,
+      "truck": "T5",
+      "day": "Thursday",
+      "startPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "endPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "distance": 1800,
+      "timeTaken": 22
+    },
+    {
+      "id": 66,
+      "truck": "T6",
+      "day": "Thursday",
+      "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
+      "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "distance": 1600,
+      "timeTaken": 20
+    },
+    {
+      "id": 67,
+      "truck": "T7",
+      "day": "Thursday",
+      "startPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "distance": 540,
+      "timeTaken": 6.5
+    },
+    {
+      "id": 68,
+      "truck": "T8",
+      "day": "Thursday",
+      "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "distance": 1270,
+      "timeTaken": 15
+    },
+    {
+      "id": 69,
+      "truck": "T9",
+      "day": "Thursday",
+      "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
+      "endPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
+      "distance": 1500,
+      "timeTaken": 18
+    },
+    {
+      "id": 70,
+      "truck": "T10",
+      "day": "Thursday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
+      "distance": 970,
+      "timeTaken": 12
+    },
+    {
+      "id": 71,
+      "truck": "T11",
+      "day": "Thursday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "distance": 850,
+      "timeTaken": 11
+    },
+    {
+      "id": 72,
+      "truck": "T12",
+      "day": "Thursday",
+      "startPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
+      "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "distance": 500,
+      "timeTaken": 7
+    },
+    {
+      "id": 73,
+      "truck": "T13",
+      "day": "Thursday",
+      "startPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "endPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "distance": 230,
+      "timeTaken": 3
+    },
+    {
+      "id": 74,
+      "truck": "T14",
+      "day": "Thursday",
+      "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
+      "endPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "distance": 1600,
+      "timeTaken": 20
+    },
+    {
+      "id": 75,
+      "truck": "T15",
+      "day": "Thursday",
+      "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 76,
+      "truck": "T1",
+      "day": "Thursday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 77,
+      "truck": "T2",
+      "day": "Thursday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "distance": 230,
+      "timeTaken": 3
+    },
+    {
+      "id": 78,
+      "truck": "T4",
+      "day": "Thursday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "distance": 540,
+      "timeTaken": 6.5
+    },
+    {
+      "id": 79,
+      "truck": "T16",
+      "day": "Thursday",
+      "startPoint": {"name": "Houston", "coords": [29.7604, -95.3698]},
+      "endPoint": {"name": "Dallas", "coords": [32.7767, -96.7970]},
+      "distance": 385,
+      "timeTaken": 4.5
+    },
+    {
+      "id": 80,
+      "truck": "T17",
+      "day": "Thursday",
+      "startPoint": {"name": "Atlanta", "coords": [33.7490, -84.3880]},
+      "endPoint": {"name": "Miami", "coords": [25.7617, -80.1918]},
+      "distance": 1070,
+      "timeTaken": 13
+    },
+    {
+      "id": 81,
+      "truck": "T1",
+      "day": "Friday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 82,
+      "truck": "T2",
+      "day": "Friday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "distance": 230,
+      "timeTaken": 3
+    },
+    {
+      "id": 83,
+      "truck": "T3",
+      "day": "Friday",
+      "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
+      "distance": 615,
+      "timeTaken": 7.5
+    },
+    {
+      "id": 84,
+      "truck": "T4",
+      "day": "Friday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "distance": 540,
+      "timeTaken": 6.5
+    },
+    {
+      "id": 85,
+      "truck": "T5",
+      "day": "Friday",
+      "startPoint": {"name": "Chicago", "coords": [41.8781, -87.6298]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 1270,
+      "timeTaken": 15
+    },
+    {
+      "id": 86,
+      "truck": "T1",
+      "day": "Friday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 87,
+      "truck": "T6",
+      "day": "Friday",
+      "startPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
+      "endPoint": {"name": "Washington D.C.", "coords": [38.9072, -77.0369]},
+      "distance": 700,
+      "timeTaken": 8.5
+    },
+    {
+      "id": 88,
+      "truck": "T7",
+      "day": "Friday",
+      "startPoint": {"name": "Dallas", "coords": [32.7767, -96.7970]},
+      "endPoint": {"name": "Houston", "coords": [29.7604, -95.3698]},
+      "distance": 385,
+      "timeTaken": 4.5
+    },
+    {
+      "id": 89,
+      "truck": "T2",
+      "day": "Friday",
+      "startPoint": {"name": "Vancouver", "coords": [49.2827, -123.1207]},
+      "endPoint": {"name": "Seattle", "coords": [47.6062, -122.3321]},
+      "distance": 230,
+      "timeTaken": 3
+    },
+    {
+      "id": 90,
+      "truck": "T8",
+      "day": "Friday",
+      "startPoint": {"name": "Miami", "coords": [25.7617, -80.1918]},
+      "endPoint": {"name": "Atlanta", "coords": [33.7490, -84.3880]},
+      "distance": 1070,
+      "timeTaken": 13
+    },
+    {
+      "id": 91,
+      "truck": "T9",
+      "day": "Friday",
+      "startPoint": {"name": "Denver", "coords": [39.7392, -104.9903]},
+      "endPoint": {"name": "Phoenix", "coords": [33.4484, -112.0740]},
+      "distance": 1370,
+      "timeTaken": 16.5
+    },
+    {
+      "id": 92,
+      "truck": "T10",
+      "day": "Friday",
+      "startPoint": {"name": "Calgary", "coords": [51.0447, -114.0719]},
+      "endPoint": {"name": "Edmonton", "coords": [53.5461, -113.4938]},
+      "distance": 300,
+      "timeTaken": 3.5
+    },
+    {
+      "id": 93,
+      "truck": "T1",
+      "day": "Friday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 800,
+      "timeTaken": 10
+    },
+    {
+      "id": 94,
+      "truck": "T11",
+      "day": "Friday",
+      "startPoint": {"name": "Winnipeg", "coords": [49.8951, -97.1384]},
+      "endPoint": {"name": "Regina", "coords": [50.4452, -104.6189]},
+      "distance": 570,
+      "timeTaken": 7
+    },
+    {
+      "id": 95,
+      "truck": "T12",
+      "day": "Friday",
+      "startPoint": {"name": "Halifax", "coords": [44.6488, -63.5752]},
+      "endPoint": {"name": "Quebec City", "coords": [46.8139, -71.2080]},
+      "distance": 880,
+      "timeTaken": 10.5
+    },
+    {
+      "id": 96,
+      "truck": "T4",
+      "day": "Friday",
+      "startPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "endPoint": {"name": "Montreal", "coords": [45.5017, -73.5673]},
+      "distance": 540,
+      "timeTaken": 6.5
+    },
+    {
+      "id": 97,
+      "truck": "T13",
+      "day": "Friday",
+      "startPoint": {"name": "Ottawa", "coords": [45.4215, -75.6972]},
+      "endPoint": {"name": "Toronto", "coords": [43.6532, -79.3832]},
+      "distance": 450,
+      "timeTaken": 5.5
+    },
+    {
+      "id": 98,
+      "truck": "T14",
+      "day": "Friday",
+      "startPoint": {"name": "Philadelphia", "coords": [39.9526, -75.1652]},
+      "endPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "distance": 150,
+      "timeTaken": 2
+    },
+    {
+      "id": 99,
+      "truck": "T3",
+      "day": "Friday",
+      "startPoint": {"name": "Los Angeles", "coords": [34.0522, -118.2437]},
+      "endPoint": {"name": "San Francisco", "coords": [37.7749, -122.4194]},
+      "distance": 615,
+      "timeTaken": 7.5
+    },
+    {
+      "id": 100,
+      "truck": "T15",
+      "day": "Friday",
+      "startPoint": {"name": "New York", "coords": [40.7128, -74.0060]},
+      "endPoint": {"name": "Boston", "coords": [42.3601, -71.0589]},
+      "distance": 350,
+      "timeTaken": 5
+    }
+  ]
 }

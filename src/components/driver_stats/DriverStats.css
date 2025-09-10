@@ -1,0 +1,33 @@
+.driver-stats-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.driver-stats-container h4 {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.driver-stats-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.driver-stats-container th, .driver-stats-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.driver-stats-container th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
