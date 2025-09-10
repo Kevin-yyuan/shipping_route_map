@@ -4,6 +4,7 @@ import Map from './components/Map';
 import Filters from './components/filters/Filters';
 import DriverStats from './components/driver_stats/DriverStats';
 import routeData from './data/routeData.json';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [selectedDay, setSelectedDay] = useState('All');
@@ -32,6 +33,7 @@ function App() {
       />
       <DriverStats filteredTrips={filteredTrips} />
       <Map filteredTrips={filteredTrips} />
+      <Analytics />
     </div>
   );
 }
