@@ -1,0 +1,25 @@
+
+{
+  "routeName": "Toronto to New York",
+  "startPoint": {
+    "name": "Toronto",
+    "coords": [43.6532, -79.3832]
+  },
+  "endPoint": {
+    "name": "New York",
+    "coords": [40.7128, -74.0060]
+  },
+  "routePath": [
+    [43.6532, -79.3832],
+    [43.2994, -79.8711],
+    [42.8864, -78.8784],
+    [42.9833, -74.9223],
+    [41.7004, -73.9209],
+    [40.7128, -74.0060]
+  ],
+  "info": {
+    "distance": "Approx. 800 km",
+    "estimatedTime": "3-4 days",
+    "cargo": "General Goods"
+  }
+}
